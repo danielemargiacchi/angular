@@ -1,0 +1,5 @@
+<h1>Pizzeria Bella ITS</h1>
+<div class="pizzeria">
+    <app-lista-pizze [pizze]="pizze" (selectPizza)="onSelectPizza($event)" class="lista-pizze" ></app-lista-pizze>
+    <app-pizza [pizzaObject]="pizzaSelezionata" class="pizza" ></app-pizza>
+</div>

@@ -1,0 +1,31 @@
+.box{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+#nome-pizza{
+    font-size: 2.5rem;
+}
+
+#ingredienti{
+    font-size: 1.5rem;
+}
+
+.info{
+    background-color: rgba(255, 255, 255, 0.436);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    text-align: center;
+}
